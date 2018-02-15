@@ -1,0 +1,17 @@
+public class ALetterToYourself {
+	public static void main(String[] args) {
+	
+	System.out.println("+-----------------------------------------------+");
+	System.out.println("|                                           ### |");
+	System.out.println("|                                           ### |");
+	System.out.println("|                                           ### |");
+	System.out.println("|                                               |");
+	System.out.println("|                Stewart Broth                  |");
+	System.out.println("|              22 FakeAdress Drive              |");
+	System.out.println("|            Toronto, Ontario, A8C 037          |");
+	System.out.println("|                                               |");
+	System.out.println("|                                               |");
+	System.out.println("|                                               |");
+	System.out.println("+-----------------------------------------------+");
+	}
+}
