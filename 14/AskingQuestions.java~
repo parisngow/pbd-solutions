@@ -12,7 +12,7 @@ public class AskingQuestions {
 	int feet = Integer.parseInt(keyboard.nextLine());
 	
 	System.out.print("And how many inches?");
-    int inches = Integer.parseInt(keyboard.nextLine());
+    	int inches = Integer.parseInt(keyboard.nextLine());
 	
 	System.out.print("How much do you weigh?");
 	double weight = Double.parseDouble(keyboard.nextLine());
