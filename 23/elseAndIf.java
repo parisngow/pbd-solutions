@@ -1,0 +1,38 @@
+public class elseAndIf {
+    public static void main(String[] args) {
+    
+        int people = 30;
+        int cars = 40;
+        int buses = 15;
+        
+        if (cars > people) {
+            System.out.println("We should take the cars.");
+        } else if (cars < people) {
+            System.out.println("We should not take the cars.");
+        } else {
+            System.out.println("We can't decide.");
+        }
+        
+        if (buses > cars) {
+            System.out.println("That's too many buses.");
+        } else if ( buses < cars) {
+            System.out.println("Maybe we could take the buses");
+        } else {
+            System.out.println("We still can't decide.");
+        }
+        
+        if (people > buses) {
+            System.out.println("All right, let's just take the buses.");
+        } else {
+            System.out.println("Fine, let's stay home then.");
+        }
+        
+    }
+}
+
+/* 1. Else and if else are blocks of code the program will defalt to when the
+condition of the if statement before them results in a false statement.
+2. If the else if removed in one of the else if statements then the program will
+treat it as a seperate if statement to be reviewed on it's own. With the else, the
+program will use it as a 'backup' to default to when the if statement before it is false.*/
+
