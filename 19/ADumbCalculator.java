@@ -1,5 +1,3 @@
-//Not done
-
 import java.util.Scanner;
 
 public class ADumbCalculator {
@@ -19,3 +17,6 @@ public class ADumbCalculator {
     double result = (firstNumber + secondNumber + thirdNumber) / 2;
     
     System.out.println("(" + firstNumber + " + " + secondNumber + " + " + thirdNumber + ") / 2  is ... " + result);
+    
+    }
+}
